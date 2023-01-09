@@ -30,4 +30,4 @@ app.get("/api", (request, response) => {
 
 
 
-app.listen(process.env.PORT || 3001, ()=>console.log("server launched on port 3001"));
+app.listen(process.env.PORT || 3000, ()=>console.log("server launched on port 3000"));
